@@ -1,0 +1,43 @@
+# ── Full dataset (private research data) ──────────────────────────────────────
+yolo_images/
+data/images/
+data/labels/
+
+# ── YOLOv8 run outputs ─────────────────────────────────────────────────────────
+runs/
+yolo_results/train22/
+yolo_results/train2/weights/last.pt
+yolo_results/train2/train_batch*.jpg
+yolo_results/train2/val_batch*.jpg
+yolo_results/train2/labels*.jpg
+yolo_results/train2/*.tfevents.*
+yolo_results/train2/labels_correlogram.jpg
+
+# ── Raw image data (not tracked, use assets/sample_images for examples) ────────
+*.bmp
+*.npy
+
+# ── Intermediate augmentation outputs (generate locally) ──────────────────────
+img_patch/
+txt/
+clustering_results*.txt
+knn_results*.txt
+numpy_cache/
+clusters/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+trained.pt

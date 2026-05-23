@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -c \"import matplotlib, pandas, PIL, numpy; print\\('OK'\\)\" 2>&1)",
+      "PowerShell(Copy-Item *)"
+    ]
+  }
+}

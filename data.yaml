@@ -1,0 +1,12 @@
+# Dataset configuration for YOLOv8 training.
+# Update paths to point to your local dataset (see data/README.md for structure).
+
+train: yolo_images/train/images
+val:   yolo_images/val/images
+test:  yolo_images/test/images
+
+nc: 3
+names:
+  - cubic
+  - pseudo-cubic
+  - ball
