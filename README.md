@@ -1,6 +1,6 @@
 # Nanocrystal Detection with YOLOv8
 
-Computer vision pipeline for detecting and classifying calcium carbonate nanocrystals in SEM (Scanning Electron Microscope) images. Developed at **Efrei's INNOLab** as part of a research project on sustainable construction materials.
+Computer vision pipeline for detecting and classifying calcium carbonate nanocrystals in SEM (Scanning Electron Microscope) images. Developed as a collaboration between **[Efrei Paris](https://www.efrei.fr)** and **[INNOLab](https://innolab-swiss.eu/)** as part of a research project on sustainable construction materials.
 
 Nanocrystal morphology (cubic vs. pseudo-cubic vs. spherical) affects the mechanical properties of the resulting material. This pipeline automates classification to replace slow manual analysis.
 
@@ -156,7 +156,7 @@ The full labeled dataset is not included (research data). See [`data/README.md`]
 
 **Students:** Flavien Hunevald, Pierre Viscardi, Emmanuel Lin, Ulysse Delepoulle, Ahkkash Kandasamy
 
-**INNOLab supervisors:** Olivier Girinsky, Alice Jondeau, Enga Luye
+**INNOLab supervisor:** Enga Luye
 
 Project carried out at [Efrei Paris](https://www.efrei.fr) in collaboration with [INNOLab](https://innolab-swiss.eu/), as part of a research initiative on AI-assisted nanocrystal characterization for sustainable construction materials.
 
